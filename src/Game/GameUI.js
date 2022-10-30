@@ -211,7 +211,7 @@ export class GameUI {
       encodeURIComponent(
         `Spacecraft ${level}/${score}${
           is_new_record ? '\r\nNew Record!' : ''
-        }\r\nhttps://spacecraft.vercel.app/`,
+        }\r\nhttps://spacecraft-webgame-bea08d.spheron.app/`,
       )
 
     this.DOM.gameOver.classList.toggle('success', is_new_record)
